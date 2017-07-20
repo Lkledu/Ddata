@@ -1,9 +1,9 @@
-# Ddata
-Discordian data
+# Ddate
+Discordian date
 
 Convert Gregoryan calendar to Discordian calendar.
 
-<blockquote> used with <b>./ddata</b> in linux terminal </blockquote>
+<blockquote> used with <b>./ddate</b> in linux terminal </blockquote>
 
 The code was compiled with gcc.
 
