@@ -1,0 +1,10 @@
+# Ddata
+Discordian data
+
+Convert Gregoryan calendar to Discordian calendar.
+
+<blockquote> used with <b>./ddata</b> in linux terminal </blockquote>
+
+The code was compiled with gcc.
+
+for see this code in others linguages: <a>https://rosettacode.org/wiki/Discordian_date</a>
