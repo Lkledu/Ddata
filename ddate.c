@@ -18,6 +18,7 @@
  
 #define leap_year( x ) ((x) % 400 == 0 || (((x) % 4) == 0 && (x) % 100))
  
+/**/
 char * ddate( int y, int d ){
 	  int dyear = 1166 + y;
 	  char * result = malloc( 100 * sizeof( char ) );
@@ -37,7 +38,13 @@ char * ddate( int y, int d ){
 		  return result;
 }
  
- 
+/*função que recebe ano, mês e dia
+ * possui um vetor com 12 posições correspondendo aos meses do calendário gregoriano
+ * cada posição possui o valor máximo de dias do mês (exceto fevereiro [1] sendo excluida a possíbilidade de ano bissexto
+ *
+ * laço de repetição com decremento enquanto o mês recebido por parâmetro for maior que 1,
+ * 
+ * */
 int day_of_year( int y, int m, int d ){
 	  int month_lengths[ 12 ] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	   
